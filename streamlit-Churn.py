@@ -127,7 +127,7 @@ def perform_prediction(df_pred):
     data = df_pred.copy()
  
     # Télécharger le modèle depuis GitHub
-    model_url = "https://github.com/MeryemLM/churn/raw/main/Meryem260124.joblib"
+    model_url = "https://github.com/MeryemLM/churn/main/Meryem260124.joblib"
     response = requests.get(model_url)
  
     # Gestion des erreurs
